@@ -13,10 +13,7 @@ class Solution:
                 res[j] = small
                 small +=1
             j+=1
-        if s[j-1] == "D":
-            res[j] =(big)
-        else:
-            res[j] =(small)
+        res[j] =(small)
         return res
 
 
